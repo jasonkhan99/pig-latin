@@ -1,7 +1,8 @@
 // Business logic
-function pigLatinTranslator(){
+function pigLatinTranslator(splitSentence){
   for (let i=0; splitSentence.length > i; ++i) {
-    if splitSentence[i]
+    let splitCharacter = splitSentence.split("");
+    if 
   };
 };
 
@@ -11,7 +12,15 @@ $(document).ready(function(){
     event.preventDefault();
     let inputSentence = $("input#input-sentence").val();
     let splitSentence = inputSentence.split(" ");
+    const vowels = ["a", "e", "i", "o", "u"]
+    const a = "a"
+    let addLay
     console.log(splitSentence);
   });
 });
+
+for (let i = 0; i <= splitSentence.length; i++) {
+  if (splitSentence[i] === a)
+  return true;
+}
 
