@@ -1,35 +1,40 @@
+1.
 The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
 Example Input: 3
 Example Output: 3
 
-The program adds "way" to single-letter words beginning with a vowel.
+2.
+The program takes single-letter words beginning with a vowel except for words beggining with the letter "y" and adds "way" to the end.
 Example Input: i
 Example Output: iway
 
-The program adds "way" to the end of multiple-letter words beggining with a vowel.
+3.
+The program takes multiple-letter words beggining with a vowel except for words beggining with the letter "y" and adds "way" to the end.
 Example Input: example
 Example Output: exampleway
 
-The program takes words beggining with a single consonant and moves it to the end of the word.
-Example Input: bird
-Example Output: irdb
+4.
+The program takes words beggining with a single consonant or words that begin with the letter "y" and moves it to the end of the word and then adds "ay".
+Example Input: bird / yellow
+Example Output: ird-b-ay / ellow-y-ay
 
-The program takes words beggining with multiple consonants and moves them to the end of the word.
-Example Input: trampoline
-Example Output: ampolinetr
+5.
+The program takes words beggining with multiple consonants -as well as words begging with the letter "y" with following consonants- and moves them to the end of the word and then adds "ay".
+Example Input: trampoline / ybor
+Example Output: ampoline-tr-ay / or-yb-ay
 
-The program adds ay to words beggining with a single consonant.
-Example Input: bird
-Example Output: birday
-
-The program adds ay to words beggining with multiple consonants.
-Example Input: trampoline
-Example Output: trampolineay
-
-The program takes words beggining with "qu" and moves it to the end of the word.
+6.
+The program takes words beggining with "qu" and moves it to the end of the word and then adds "ay".
 Example Input: quiet
-Example Output: ietqu
+Example Output: iet-qu-ay
 
-The program takes words beggining with a consonant followed by "qu" and moves it to the end of the word.
+7.
+The program takes words beggining with a consonant followed by "qu" and moves all three to the end of the word and then adds "ay".
 Example Input: squeal
-Example Output: ealsqu
+Example Output: eal-squ-ay
+
+8.
+The program takes words beggining with multiple consonants followed by "qu" and moves all of them to the end of the word and then adds "ay".
+Example Input: thqueal
+Example Output: eal-thqu-ay
+
